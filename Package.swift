@@ -9,13 +9,13 @@ let package = Package(
         // Products define the executables and libraries a package produces, and make them visible to other packages.
         .library(
             name: "CMPush",
-            targets: ["Hello"]),
+            targets: ["CMPush"]),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
         // .package(url: /* package url */, from: "1.0.0"),
     ],
     targets:[
-        .binaryTarget(name: "Hello", url: "https://test.qbot.eu/CMPush.xcframework.zip", checksum: "5b09862e77be7e1b802679eed01136f4d1919a47563ce012c226f488a6f411ea")
+        .binaryTarget(name: "CMPush", url: "https://test.qbot.eu/CMPush.xcframework.zip", checksum: "5b09862e77be7e1b802679eed01136f4d1919a47563ce012c226f488a6f411ea")
         ])
 
